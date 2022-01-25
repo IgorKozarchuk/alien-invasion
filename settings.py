@@ -5,7 +5,8 @@ class Settings:
 		self.screen_width = 1500
 		self.screen_height = 1000
 		self.bg_color = (10, 5, 40)
-		self.bg_img = pygame.image.load("PROJ1_Alien_Invasion_Game/images/space_bg.jpg")
+		#self.bg_img = pygame.image.load("images/space_bg.jpg") #comment for development, uncomment for converting to .exe
+		self.bg_img = pygame.image.load("PROJ1_Alien_Invasion_Game/images/space_bg.jpg") #uncomment for development, comment for converting to .exe
 		self.bg_img = pygame.transform.scale(self.bg_img, (self.screen_width, self.screen_height))
 		self.ship_limit = 3
 
